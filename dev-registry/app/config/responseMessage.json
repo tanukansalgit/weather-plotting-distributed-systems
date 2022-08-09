@@ -1,0 +1,74 @@
+{
+    "APP_MESSAGES": {
+        "SUCCESS": {
+            "errorCode": "success",
+            "message": "Success",
+            "statusCode": 200
+        },
+        "ERROR_VALIDATION": {
+            "errorCode": "requestParamsNotComplete",
+            "message": "Validation Error",
+            "statusCode": 400
+        },
+        "ERROR_SERVER_ERROR": {
+            "errorCode": "serverError",
+            "message": "Server Error",
+            "statusCode": 500
+        },
+        "ERROR_DATA_NOT_FOUND": {
+            "errorCode": "dataNotFound",
+            "message": "No data found",
+            "statusCode": 404
+        },
+        "ERROR_UNSUPPORTED_SERVICE": {
+            "errorCode": "unsupportedService",
+            "message": "Service not supported",
+            "statusCode": 404
+        },
+        "ERROR_CONNECTION_TIMEOUT": {
+            "errorCode": "connectionTimeout",
+            "message": "Not able to connect to client",
+            "statusCode": 500
+        },
+        "DATABASE_ERROR" : {
+            "errorCode" : "databaseError",
+            "message"   : "Not able to connect to client",
+            "statusCode": 502
+        },
+        "ERROR_COLLECTION_NOT_EXISTS" : {
+            "errorCode" : "collectionNotExists",
+            "message"   : "Collection does not exists",
+            "statusCode": 400
+        },
+        "INVALID_FILE_TYPE": {
+            "errorCode" : "invalidFileType",
+            "message"   : "Invalid file type",
+            "statusCode": 400
+        },
+        "ERROR_FILE_NOT_FOUND": {
+            "errorCode": "fileNotFound",
+            "message": "No file found",
+            "statusCode": 404
+        },
+        "EMAIL_ALREADY_EXISTS" : {
+            "errorCode": "userAlreadyExists",
+            "message": "User already Exists.",
+            "statusCode": 401
+        },
+        "ERROR_USER_NOT_EXISTS" : {
+            "errorCode": "userNotExists",
+            "message": "User doesn't Exists.",
+            "statusCode": 401
+        },
+        "ERROR_INVALID_PASSWORD" : {
+            "errorCode": "invalidPassword",
+            "message": "InvalidPassword.",
+            "statusCode": 401
+        },
+        "UNAUTHORIZED_USER" : {
+            "errorCode": "unauthorizedUser",
+            "message": "Unauthorized User.",
+            "statusCode": 401
+        }
+    }
+}

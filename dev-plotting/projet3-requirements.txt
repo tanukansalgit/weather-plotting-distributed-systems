@@ -1,0 +1,6 @@
+geos 0.2.3
+Shapely 1.8.1.post1 
+pyphp
+proj (https://pypi.org/project/proj/)
+Cython (https://pypi.org/project/Cython/)
+cartopy
